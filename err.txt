@@ -1,8 +1,8 @@
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+  File "/opt/homebrew/Cellar/python@3.10/3.10.11/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
     return _run_code(code, main_globals, None,
-  File "/usr/local/lib/python3.10/runpy.py", line 86, in _run_code
+  File "/opt/homebrew/Cellar/python@3.10/3.10.11/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
     exec(code, run_globals)
-  File "/app/main.py", line 18, in <module>
-    raise ValueError("Broken file")
-ValueError: Broken file
+  File "/Users/bh2smith/Projects/bh2smith/py-log-config/main.py", line 2, in <module>
+    from .log import set_log
+ImportError: attempted relative import with no known parent package

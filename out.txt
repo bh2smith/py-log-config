@@ -1,0 +1,5 @@
+print to stdout
+debug to stdout?
+info to stdout?
+warning to stdout?
+error to stdout?

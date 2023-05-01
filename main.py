@@ -1,15 +1,8 @@
-import logging
-import sys
+
+from .log import set_log
 
 if __name__ == "__main__":
-    print("print to stdout")
-
-
-    log = logging.getLogger()
-    log.setLevel(level=logging.DEBUG)
-    handler = logging.StreamHandler(sys.stdout)
-    handler.setLevel(logging.DEBUG)
-    log.addHandler(handler)
+    log = set_log(__name__)
 
     log.debug("debug to stdout?")
     log.info("info to stdout?")
